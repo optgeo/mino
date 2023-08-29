@@ -1,0 +1,17 @@
+source: v
+minzoom: 13
+id: buildings4302
+type: fill-extrusion
+source-layer: StrctArea
+filter:
+  - all
+  - - '=='
+    - vt_code
+    - 4302
+  - - '=='
+    - $type
+    - Polygon
+paint:
+  fill-extrusion-color: rgb(255,230,190)
+  fill-extrusion-opacity: 0.8
+  fill-extrusion-height: 6

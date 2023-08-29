@@ -1,0 +1,17 @@
+source: v
+minzoom: 13
+id: buildings3103
+type: fill-extrusion
+source-layer: BldA
+filter:
+  - all
+  - - '=='
+    - vt_code
+    - 3103
+  - - '=='
+    - $type
+    - Polygon
+paint:
+  fill-extrusion-color: rgb(190,230,255)
+  fill-extrusion-opacity: 0.8
+  fill-extrusion-height: 60
